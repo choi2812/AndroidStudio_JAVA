@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Android103</string>
+    <string name="txtInfo">何連勝できるかな？</string>
+    <string name="btnStart">勝負！</string>
+    <string name="btnRestart">次の戦いへ</string>
+    <string name="txtCpu">CPUの手</string>
+    <string name="txtContest">楽しいじゃんけんをしましょう！</string>
+    <string name="btnContest">初期化</string>
+</resources>

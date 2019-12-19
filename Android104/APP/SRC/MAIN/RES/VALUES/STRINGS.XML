@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Android104</string>
+    <string name="action_settings">Settings</string>
+    <string name="txtTotalPay">支払額：</string>
+    <string name="edtTotalPay">金額を入れてください</string>
+    <string name="txtPeople">人数</string>
+    <string name="btnCalc">計算実行</string>
+    <string name="txtView2">集計金額：</string>
+    <string name="txtCollectMoney" />
+    <string name="txtView3">幹数支払額：</string>
+    <string name="txtCollectionMoney" />
+    <string name="txtMyPay" />
+    <string name="txtError">エラーです！</string>
+    <string-array name="sprPeople">
+        <item>２人</item>
+        <item>３人</item>
+        <item>４人</item>
+        <item>５人</item>
+        <item>６人</item>
+        <item>７人</item>
+        <item>８人</item>
+        <item>９人</item>
+    </string-array>
+</resources>

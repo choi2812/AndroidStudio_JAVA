@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sai.android103.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgTitle"
+            android:src="@drawable/title_image"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtInfo"
+            android:id="@+id/txtInfo"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtContest"
+            android:id="@+id/txtContest"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/imgGu"
+                android:src="@drawable/j_gu02"
+                android:layout_gravity="center"
+                android:onClick="itemSelectAction" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/imgCh"
+                android:src="@drawable/j_ch02"
+                android:layout_gravity="center"
+                android:onClick="itemSelectAction" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/imgPa"
+                android:src="@drawable/j_pa02"
+                android:layout_gravity="center"
+                android:onClick="itemSelectAction" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnStart"
+                android:id="@+id/btnStart"
+                android:onClick="startClickAction" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnRestart"
+                android:id="@+id/btnRestart"
+                android:onClick="restartClickAction" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnContest"
+                android:id="@+id/btncontestReset"
+                android:layout_marginLeft="50dp"
+                android:onClick="contestReset" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtCpu"
+                android:id="@+id/txtCpu"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="157dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/imgCpu"
+                android:src="@mipmap/ic_launcher"
+                android:layout_gravity="center"
+                android:layout_weight="0.89" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

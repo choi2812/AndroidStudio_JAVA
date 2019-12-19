@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Android105</string>
+    <string name="txtTotalPay">支払額：</string>
+    <string name="edtTotalPay" />
+    <string name="txtPeople" >人数：</string>
+    <string name="btnCalc">計算実行</string>
+    <string name="txtPeopleMoney">集金金額</string>
+    <string name="txtCollectMoney" />
+    <string name="txtControlMoney">幹事支払額</string>
+    <string name="txtMyPay" />
+    <string name="rbt100">100円</string>
+    <string name="rbt500">500円</string>
+    <string name="rbt1000">1000円</string>
+    <string name="tbtnOn">幹事得モードON</string>
+    <string name="tbtnOff">幹事得モードOFF</string>
+    <string name="chx2jikai">2次回有り</string>
+    <string name="txtZankin">残金</string>
+    <string name="txtError">ERROR</string>
+    <string name="txtVeiw2">2次会残金</string>
+    <string name="txtMoney">支払い端数</string>
+    <string-array name="sprPeople">
+        <item>２人</item>
+        <item>３人</item>
+        <item>４人</item>
+        <item>５人</item>
+        <item>６人</item>
+        <item>７人</item>
+        <item>８人</item>
+        <item>９人</item>
+    </string-array>
+</resources>
